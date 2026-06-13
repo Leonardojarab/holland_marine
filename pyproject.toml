@@ -1,6 +1,13 @@
 [project]
 name = "hollandmarine"
 version = "0.1.0"
-description = "Add your description here"
+description = "HMAS — Holland Marine Assistant System: agentic RAG over marine vessel technical documentation"
 requires-python = ">=3.12"
-dependencies = []
+dependencies = [
+    "openai>=1.50.0",
+    "chromadb>=0.5.0",
+    "gradio>=5.0.0",
+    "python-dotenv>=1.0.0",
+    "langchain-text-splitters>=0.3.0",
+    "openai-agents>=0.14.0",
+]

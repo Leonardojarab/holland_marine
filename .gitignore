@@ -1,0 +1,7 @@
+vector_db/
+raw_data/
+__pycache__/
+*.pyc
+.env
+.venv/
+.gradio/
